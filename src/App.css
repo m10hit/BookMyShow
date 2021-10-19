@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
 .row__posters {
@@ -11,11 +11,37 @@
 .row__poster {
   width: 200px;
   margin-right: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   max-height: 300px;
+  cursor: pointer;
   transition: transform 450ms;
 }
 
 .row__poster:hover {
   transform: scale(1.08);
+}
+
+.movie__block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.navbar {
+  width: 100%;
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-left {
+  display: flex;
+}
+
+.navbar-left > * {
+  margin: 8px;
+}
+
+.navbar-right > * {
+  margin: 8px;
 }
