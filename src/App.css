@@ -45,3 +45,16 @@
 .navbar-right > * {
   margin: 8px;
 }
+
+.video-responsive {
+  margin: 10px;
+}
+
+.trailer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.genre {
+  margin-right: 10px;
+}
